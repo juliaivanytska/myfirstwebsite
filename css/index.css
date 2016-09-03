@@ -19,40 +19,37 @@
       border-color: black;
       box-shadow: 1px 1px 3px #999999;
       height: 33px;
-      width: 110px;
+      width: 50px;
       margin-left: 100px;
       margin-top: 25px;
       font-size: 20px;
-      min-width: 500px;
 }
 .main {
     background:url(main.jpg) no-repeat;
     margin:0 auto;
-    width:100%;
-    height:720px;
+    
 }
 .auto {background:url(auto.jpg) no-repeat;
      opacity:0.9;
      margin: 0 auto;
-     width: 100%;
-     height: 720px;
+    
 }
 .autoserv {background:url(bb.jpg) no-repeat;
     margin: 0 auto;
-    width:100%;
-    height:720px;
+    
 }
 online {background:url(zamov.jpg) no-repeat;
      margin:0 auto;
-     width:100%;
-     height:720px;
+     
      
 }
 
 
-
+.contact{
+    background-image: url();
+}
 .footer {
     min-height: 50px;
-    color: white;
+    color: blue;
     background: #34495e;
 }
