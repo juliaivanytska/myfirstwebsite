@@ -1,29 +1,22 @@
+.body{ min-width: 300px;
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 1.4;}
 .header {position:fixed;
          height:150px;
          width:100%;
-         background:red;
+         background:url(header2.jpg) no-repeat top;
+         background-size: 100%;
          opacity: 0.8;
-         margin:0 auto;    
-         z-index: 120;
+        
          
 }
 .nav { 
-      display: inline-block;
-      text-align: left;
-      vertical-align: middle;
-      margin: 25px 25px;
-      color: #fffff0;
-      background: #8b814c;
-      font-weight: bold;
-      border-radius:20px;
-      border-color: black;
-      box-shadow: 1px 1px 3px #999999;
-      height: 33px;
-      width: 50px;
-      margin-left: 100px;
-      margin-top: 25px;
-      font-size: 20px;
-}
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #e5e5e5;}
 .main {
     background:url(main.jpg) no-repeat;
     margin:0 auto;
@@ -34,13 +27,9 @@
      margin: 0 auto;
     
 }
-.autoserv {background:url(bb.jpg) no-repeat;
-    margin: 0 auto;
-    
-}
+
 online {background:url(zamov.jpg) no-repeat;
-     margin:0 auto;
-     
+    margin:0 auto;
      
 }
 
